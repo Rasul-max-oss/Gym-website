@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 и CSS3 сайт</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js.js" type="text/javascript"></script>
+  <script src="functions.js" type="text/javascript"></script>
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>#SportFather</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+      <a href="#" onclick="slowScroll('#overview')" title="Преимущества">Преимущества</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1>В здоровом теле </h1>
+    <h3>Здоровый дух!</h3>
+  </div>
+
+  <div id="main">
+    <div class="intro">
+      <h2>Наши услуги помогут вам!</h2>
+      <span>Большой выбор всего, что может вам пригодиться</span>
+    </div>
+    <div class="text">
+      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos impedit, ut vero commodi voluptate? Ipsam reiciendis, necessitatibus incidunt ipsa quis sapiente excepturi, optio iusto voluptatibus dolorem officia quidem, numquam eaque minus, autem praesentium rem architecto dolores. Ipsa unde id velit optio magni enim! Illum obcaecati, dolorem distinctio nemo, ipsum iure.</span>
+    </div>
+  </div>
+
+  <div id="overview">
+    <h2>Преимущества</h2>
+    <h4>с нами все проще</h4>
+
+    <div class="img">
+      <img src="https://static.tildacdn.com/tild3366-6130-4361-b764-633364383434/_.jpg" alt="">
+      <span>Зал для воркаута и кроссфита</span>
+    </div>
+    <div class="img">
+      <img src="https://static.tildacdn.com/tild6538-3439-4363-b965-653963376135/_.jpg" alt="">
+      <span>Зал для бодибилдинга</span>
+    </div>
+  </div>
+  <div id="titlee">
+          <h2> Cоветы </h2>
+          <h4>и питания</h4>
+ 
+  <div class="advice">
+<div class="advicey">
+  <img src="advice/iconone.png"  alt="text">
+  <h3>Тренировка</h3>
+  <p>Никогда не пропускай разминки (или восстановления) Во избежание получения травм и проявлений крепатуры, обязательно разогревай мышцы перед тренировкой и выполняй упражнения на восстановление после.Увеличивай интенсивность своих тренировок по крайней мере раз в неделю. Добавь бег, катание на велосипеде, занятия йогой,  силовые тренировки
+  </p>  
+</div>
+<div class="advicey">
+  <img src="advice/icontwo.png"  alt="text">
+  <h3>Питание</h3>
+  <p>Между занятиями два раза в день отдавайте приоритет восстановительному питанию.
+Снижайте вес в начале сезона, чтобы избежать упадка сил во время тяжелых тренировок.
+Для комплексных видов спорта крайне важна оптимальная ежедневная гидратация. Во время занятий атлет должен определить свою скорость потоотделения.  
+</div>
+<div class="advicey">
+  <img src="advice/iconfree.png"  alt="text">
+  <h3>Ограничение</h3>
+  <p>Во время тренировки не отвлекайся на разговор по телефону. Ты не будешь уделять должного внимания выполнению упражнений и людям вокруг тебя. Займись йогой Не позволь себе увязнуть в тренажерном зале, разнообразь свои тренировки. К тому же занятия йогой - это хорошая растяжка и развитое чувство равновесия. Пей достаточное количество жидкости.</p>  
+</div>
+</div>
+</div>
+
+  <div id="containerese">
+    <div class="container">
+         <div class="centeres">
+          <center><h1>До открытия осталось</h1></center>
+          <p id="timer"> 
+          </p>
+          </div>
+  </div>
+  </div> 
+  <div class="Sllidde">
+
+   <div id="boddy">
+    <h2>Наше</h2>
+    <h4>Спортивное питание</h4>
+
+
+    <div id="block-for-slider">
+        <div id="viewport">
+            <ul id="slidewrapper">
+                <li class="slide"><img src="images/img1.jpg" alt="1" class="slide-img"></li>
+                <li class="slide"><img src="images/img2.jpg" alt="2" class="slide-img"></li>
+                <li class="slide"><img src="images/img3.jpg" alt="3" class="slide-img"></li>
+                <li class="slide"><img src="images/img4.jpg" alt="4" class="slide-img"></li>
+            </ul>
+
+        <!--- <div id="prev-next-btns">
+                <div id="prev-btn"></div>
+                <div id="next-btn"></div>
+            </div> !-->
+
+            <ul id="nav-btns">
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+  </div>
+  <div id="contacts">
+    <center><h5>Обратная связь</h5></center>
+    <form id="form_input">
+      <label for="name">Имя <span>*</span></label><br>
+      <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+      <label for="email">Ваша почта <span>*</span></label><br>
+      <input type="email" placeholder="Введите email" name="email" id="email"><br>
+      <label for="message">Сообщение <span>*</span></label><br>
+      <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+      <div id="mess_send" class="btn">Отправить</div>
+    </form>
+  </div>
+
+  <div id="faq">
+    <div>
+      <span class="title">Оплата</span><br>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Информация</span><br>
+      <span class="heading">Что входит в  наши услуги </span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Что входит в наши услуги</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Что входит в  наши услуги </span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Гарантии</span><br>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+  </div>
+</body>
+</html>
+</body>
+</html>
